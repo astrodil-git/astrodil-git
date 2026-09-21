@@ -44,23 +44,24 @@ Each links straight to the write-up and demo clip.
 | Project | What it is | Stack |
 |---|---|---|
 | [**viaNexus MCP Server**](https://astrodil-git.github.io/#vianexus-mcp-server) | The connector that lets Claude, ChatGPT and Cursor pull live market data — prices… | Python · MCP · OAuth |
+| [**8-K Classifier Agent**](https://astrodil-git.github.io/#8-k-classifier-agent) | A real-time classification service for SEC 8-K filings, mine end to end from first… | Python · FastAPI · Redis |
 | [**OpenBB × viaNexus Agent**](https://astrodil-git.github.io/#openbb-vianexus-agent) | A multi-agent research workflow inside OpenBB Workspace | Python · FastAPI · OpenBB |
 | [**Agentic Workflow Architecture**](https://astrodil-git.github.io/#agentic-workflow-architecture) | The design behind the agent stack: modular workers that each own one job — fetch… | Python · Redis · Kafka |
-| [**8-K Classifier Agent**](https://astrodil-git.github.io/#8-k-classifier-agent) | A real-time classification system for SEC 8-K filings | Python · FastAPI · Redis |
-| [**Earnings Calendar Pipeline**](https://astrodil-git.github.io/#earnings-calendar-pipeline) | The pipeline behind CORE/EARNINGS_CALENDAR | Python · Airflow · SingleStore |
 | [**Financial Chat Agent**](https://astrodil-git.github.io/#financial-chat-agent) | A chat agent that watches the market and emails you when something you care about… | Python · Redis · LLMs |
-| [**RSI-14 Momentum Screener**](https://astrodil-git.github.io/#rsi-14-momentum-screener) | Added a computed RSI-14 field to the company stats pipeline and shipped the screener… | Python · SingleStore · JavaScript |
-| [**Claude Skills for Market Data**](https://astrodil-git.github.io/#claude-skills-for-market-data) | Seven open-source Claude skills that turn the viaNexus API into things people actually… | Markdown · Python · Claude Skills |
+| [**Claude Skills for Market Data**](https://astrodil-git.github.io/#claude-skills-for-market-data) | Seven open-source Claude skills that turn the viaNexus API into things people actually… | Claude Skills · Python · JavaScript |
+| [**Market News Bot**](https://astrodil-git.github.io/#market-news-bot) | An automated account that reads the newswire and posts what's actually moving | Python · X API · LLMs |
 | [**Cursor Plugin**](https://astrodil-git.github.io/#cursor-plugin) | Packaged the MCP server as a Cursor plugin so developers can query market data without… | TypeScript · MCP |
-| [**Deploy & Observability**](https://astrodil-git.github.io/#deploy-observability) | How the data platform ships and how it reports on itself | GCP · Cloud Build · Kubernetes |
-| [**Market News Bot**](https://astrodil-git.github.io/#market-news-bot) | An hourly bot that reads the newswire, decides what's actually breaking, and posts a… | Python · X API · LLMs |
-| [**Scoped Access Tickets**](https://astrodil-git.github.io/#scoped-access-tickets) | A short-lived ticket system for dataset access | Node.js · GCP · Redis |
-| [**CityFalcon News Pipeline**](https://astrodil-git.github.io/#cityfalcon-news-pipeline) | Built the ingestion for a news provider from scratch, then split it into three clean… | Python · Airflow · SingleStore |
-| [**MT Newswires Feed**](https://astrodil-git.github.io/#mt-newswires-feed) | Global newswire ingestion over FTP | Python · Airflow · FTP |
-| [**Exchange Symbology**](https://astrodil-git.github.io/#exchange-symbology) | The symbology layer that maps newswire tickers to the right market | Python · SingleStore · ISO 10383 |
+| [**MT Newswires Pipeline**](https://astrodil-git.github.io/#mt-newswires-pipeline) | Global newswire ingestion, taken from nothing to production and still mine | Python · Airflow · FTP |
+| [**Earnings Calendar**](https://astrodil-git.github.io/#earnings-calendar) | The pipeline behind CORE/EARNINGS_CALENDAR, built and owned from the first commit | Python · Airflow · SingleStore |
+| [**SEC Company Intelligence**](https://astrodil-git.github.io/#sec-company-intelligence) | An extraction pipeline that turns SEC filings into structured company profiles … | Python · Airflow · Gemini |
+| [**CityFalcon News Pipeline**](https://astrodil-git.github.io/#cityfalcon-news-pipeline) | Ingestion for a second news provider, built from scratch and then split into separate… | Python · Airflow · SingleStore |
 | [**Transcripts & Events Pipeline**](https://astrodil-git.github.io/#transcripts-events-pipeline) | Earnings call transcripts and corporate events, ingested from Aiera on a schedule | Python · Airflow · REST |
-| [**AI Crawler & SEO Work**](https://astrodil-git.github.io/#ai-crawler-seo-work) | Made the marketing site legible to machines as well as people: an llms.txt route, a… | Ghost · Handlebars · Search Console |
-| [**Stellar Spectra Analysis**](https://astrodil-git.github.io/#stellar-spectra-analysis) | M.S | Python · NumPy · Matplotlib |
+| [**Company Stats & RSI-14**](https://astrodil-git.github.io/#company-stats-rsi-14) | A computed RSI-14 momentum field added to the company stats dataset, with seed… | Python · SingleStore · JavaScript |
+| [**Scoped Access Tickets**](https://astrodil-git.github.io/#scoped-access-tickets) | A short-lived ticket system for dataset access | Node.js · GCP · Redis |
+| [**Deploy & Observability**](https://astrodil-git.github.io/#deploy-observability) | How the data platform ships and how it reports on itself | GCP · Cloud Build · Kubernetes |
+| [**AI Discoverability & SEO**](https://astrodil-git.github.io/#ai-discoverability-seo) | Making the platform legible to machines as well as people | Ghost · Handlebars · Search Console |
+| [**Chemical Abundances of Metal-Poor Stars**](https://astrodil-git.github.io/#chemical-abundances-of-metal-poor-stars) | My master's work: measuring the chemical composition of very metal-poor stars that fall… | Python · MOOG · NumPy |
+| [**Particle Detector Calibration**](https://astrodil-git.github.io/#particle-detector-calibration) | Undergraduate research at CSU Stanislaus: calibrating particle detectors with… | Python · Oscilloscopes · Data validation |
 
 <!--/projects-->
 

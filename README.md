@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="portrait.jpg" width="150" alt="Dilpreet Kaur" style="border-radius:50%">
+</p>
+
 <h1 align="center">Dilpreet Kaur</h1>
 
 <p align="center">

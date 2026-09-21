@@ -45,8 +45,7 @@ Each links straight to the write-up and demo clip.
 |---|---|---|
 | [**viaNexus MCP Server**](https://astrodil-git.github.io/#vianexus-mcp-server) | The connector that lets Claude, ChatGPT and Cursor pull live market data — prices… | Python · MCP · OAuth |
 | [**8-K Classifier Agent**](https://astrodil-git.github.io/#8-k-classifier-agent) | A real-time classification service for SEC 8-K filings, mine end to end from first… | Python · FastAPI · Redis |
-| [**OpenBB × viaNexus Agent**](https://astrodil-git.github.io/#openbb-vianexus-agent) | A multi-agent research workflow inside OpenBB Workspace | Python · FastAPI · OpenBB |
-| [**Agentic Workflow Architecture**](https://astrodil-git.github.io/#agentic-workflow-architecture) | The design behind the agent stack: modular workers that each own one job — fetch… | Python · Redis · Kafka |
+| [**OpenBB × viaNexus Agent**](https://astrodil-git.github.io/#openbb-vianexus-agent) | A research workflow that lives inside OpenBB Workspace | Python · FastAPI · OpenBB |
 | [**Financial Chat Agent**](https://astrodil-git.github.io/#financial-chat-agent) | A chat agent that watches the market and emails you when something you care about… | Python · Redis · LLMs |
 | [**Claude Skills for Market Data**](https://astrodil-git.github.io/#claude-skills-for-market-data) | Seven open-source Claude skills that turn the viaNexus API into things people actually… | Claude Skills · Python · JavaScript |
 | [**Market News Bot**](https://astrodil-git.github.io/#market-news-bot) | An automated account that reads the newswire and posts what's actually moving | Python · X API · LLMs |

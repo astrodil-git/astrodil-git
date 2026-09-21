@@ -33,14 +33,23 @@ AI            MCP · Claude Skills · multi-agent workflows · LLM routing
 
 ### Things I've built
 
-| | |
-|---|---|
-| **MCP connectors** | Live market data inside Claude, ChatGPT and Cursor |
-| **Agentic workflows** | Modular agents that fetch, classify, summarize and alert |
-| **Data pipelines** | SEC filings, earnings calendars, newswires, company stats |
-| **Dashboards** | Live screeners and research tools built on the viaNexus API |
+Each links straight to the write-up and demo clip.
 
-Full write-ups with demos → **[astrodil-git.github.io](https://astrodil-git.github.io)**
+| Project | What it is | Stack |
+|---|---|---|
+| [**viaNexus MCP Server**](https://astrodil-git.github.io/#vianexus-mcp-server) | Live market data inside Claude, ChatGPT and Cursor | Python · MCP · OAuth · GKE |
+| [**OpenBB × viaNexus Agent**](https://astrodil-git.github.io/#openbb-vianexus-agent) | Multi-agent research workflow in OpenBB Workspace | Python · FastAPI · LLM routing |
+| [**Agentic Workflow Architecture**](https://astrodil-git.github.io/#agentic-workflow-architecture) | Modular agents that fetch, classify, summarize, alert | Python · Redis · Kafka |
+| [**SEC 8-K Classifier**](https://astrodil-git.github.io/#sec-8-k-classifier) | Reads filings' declared item codes instead of guessing | Python · Airflow · EDGAR |
+| [**Earnings Calendar Pipeline**](https://astrodil-git.github.io/#earnings-calendar-pipeline) | Untangled a calendar that was quietly freezing | Python · Airflow · SingleStore |
+| [**Financial Chat Agent**](https://astrodil-git.github.io/#financial-chat-agent) | Watches the market, emails you when something breaks | Python · Redis · LLMs |
+| [**RSI-14 Momentum Screener**](https://astrodil-git.github.io/#rsi-14-momentum-screener) | Sort the whole universe by momentum, off live data | Python · SingleStore · JS |
+| [**Claude Skills for Market Data**](https://astrodil-git.github.io/#claude-skills-for-market-data) | Seven open-source skills built on the viaNexus API | Claude Skills · Python |
+| [**Data Platform Deploys**](https://astrodil-git.github.io/#data-platform-deploys) | Airflow on GCP, and making deploys fail loudly | GCP · Cloud Build · K8s |
+| [**Market News Bot**](https://astrodil-git.github.io/#market-news-bot) | Hourly bot that only speaks when something breaks | Python · X API · LLMs |
+| [**Stellar Spectra Analysis**](https://astrodil-git.github.io/#stellar-spectra-analysis) | M.S. thesis on APOGEE survey data | Python · NumPy · scikit-learn |
+
+Full write-ups with demo clips → **[astrodil-git.github.io](https://astrodil-git.github.io)**
 
 ---
 

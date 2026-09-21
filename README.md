@@ -42,21 +42,21 @@ Each links straight to the write-up and demo clip.
 | [**viaNexus MCP Server**](https://astrodil-git.github.io/#vianexus-mcp-server) | The connector that lets Claude, ChatGPT and Cursor pull live market data — prices… | Python · MCP · OAuth |
 | [**OpenBB × viaNexus Agent**](https://astrodil-git.github.io/#openbb-vianexus-agent) | A multi-agent research workflow inside OpenBB Workspace | Python · FastAPI · OpenBB |
 | [**Agentic Workflow Architecture**](https://astrodil-git.github.io/#agentic-workflow-architecture) | The design behind the agent stack: modular workers that each own one job — fetch… | Python · Redis · Kafka |
-| [**SEC 8-K Classifier**](https://astrodil-git.github.io/#sec-8-k-classifier) | Rewrote 8-K classification to read the filing's own declared item codes from EDGAR… | Python · Airflow · EDGAR |
-| [**Earnings Calendar Pipeline**](https://astrodil-git.github.io/#earnings-calendar-pipeline) | Untangled a calendar that was quietly freezing: symbols stuck on stale predicted dates… | Python · Airflow · SingleStore |
+| [**8-K Classifier Agent**](https://astrodil-git.github.io/#8-k-classifier-agent) | A real-time classification system for SEC 8-K filings | Python · FastAPI · Redis |
+| [**Earnings Calendar Pipeline**](https://astrodil-git.github.io/#earnings-calendar-pipeline) | The pipeline behind CORE/EARNINGS_CALENDAR | Python · Airflow · SingleStore |
 | [**Financial Chat Agent**](https://astrodil-git.github.io/#financial-chat-agent) | A chat agent that watches the market and emails you when something you care about… | Python · Redis · LLMs |
 | [**RSI-14 Momentum Screener**](https://astrodil-git.github.io/#rsi-14-momentum-screener) | Added a computed RSI-14 field to the company stats pipeline and shipped the screener… | Python · SingleStore · JavaScript |
 | [**Claude Skills for Market Data**](https://astrodil-git.github.io/#claude-skills-for-market-data) | Seven open-source Claude skills that turn the viaNexus API into things people actually… | Markdown · Python · Claude Skills |
 | [**Cursor Plugin**](https://astrodil-git.github.io/#cursor-plugin) | Packaged the MCP server as a Cursor plugin so developers can query market data without… | TypeScript · MCP |
-| [**Data Platform Deploys**](https://astrodil-git.github.io/#data-platform-deploys) | Airflow on GCP: Cloud Build triggers, containerized DAG deploys, and the unglamorous… | GCP · Cloud Build · Kubernetes |
+| [**Data Platform Deploys**](https://astrodil-git.github.io/#data-platform-deploys) | The deploy path for the data platform: Cloud Build triggers, containerized Airflow DAG… | GCP · Cloud Build · Kubernetes |
 | [**Market News Bot**](https://astrodil-git.github.io/#market-news-bot) | An hourly bot that reads the newswire, decides what's actually breaking, and posts a… | Python · X API · LLMs |
-| [**Access Ticket Rewrite**](https://astrodil-git.github.io/#access-ticket-rewrite) | Dataset URLs used to carry long-lived API keys in the query string, which meant every… | Node.js · GCP · Redis |
+| [**Scoped Access Tickets**](https://astrodil-git.github.io/#scoped-access-tickets) | A short-lived ticket system for dataset access | Node.js · GCP · Redis |
 | [**CityFalcon News Pipeline**](https://astrodil-git.github.io/#cityfalcon-news-pipeline) | Built the ingestion for a news provider from scratch, then split it into three clean… | Python · Airflow · SingleStore |
-| [**MT Newswires Feed**](https://astrodil-git.github.io/#mt-newswires-feed) | FTP ingestion for a global newswire: batch loading with retries and fresh connections… | Python · Airflow · FTP |
-| [**Exchange Symbology**](https://astrodil-git.github.io/#exchange-symbology) | Newswire tickers arrived with provider-specific exchange suffixes that quietly mapped… | Python · SingleStore · ISO 10383 |
-| [**Transcripts & Events Pipeline**](https://astrodil-git.github.io/#transcripts-events-pipeline) | Earnings call transcripts and corporate events from Aiera | Python · Airflow · REST |
-| [**MCP Monitoring & Alerting**](https://astrodil-git.github.io/#mcp-monitoring-alerting) | Synthetic monitoring that actually exercises the MCP proxy end to end, plus health… | Python · GCP Monitoring · Terraform |
-| [**MCP Error Semantics**](https://astrodil-git.github.io/#mcp-error-semantics) | A run of fixes so the connector tells the truth: a missing dataset returns not-found… | Python · MCP · OAuth |
+| [**MT Newswires Feed**](https://astrodil-git.github.io/#mt-newswires-feed) | Global newswire ingestion over FTP | Python · Airflow · FTP |
+| [**Exchange Symbology**](https://astrodil-git.github.io/#exchange-symbology) | The symbology layer that maps newswire tickers to the right market | Python · SingleStore · ISO 10383 |
+| [**Transcripts & Events Pipeline**](https://astrodil-git.github.io/#transcripts-events-pipeline) | Earnings call transcripts and corporate events, ingested from Aiera on a schedule | Python · Airflow · REST |
+| [**MCP Monitoring & Alerting**](https://astrodil-git.github.io/#mcp-monitoring-alerting) | Synthetic monitoring for the MCP stack | Python · GCP Monitoring · Terraform |
+| [**MCP Error Semantics**](https://astrodil-git.github.io/#mcp-error-semantics) | The error layer that makes the connector honest with an AI assistant | Python · MCP · OAuth |
 | [**AI Crawler & SEO Work**](https://astrodil-git.github.io/#ai-crawler-seo-work) | Made the marketing site legible to machines as well as people: an llms.txt route, a… | Ghost · Handlebars · Search Console |
 | [**Stellar Spectra Analysis**](https://astrodil-git.github.io/#stellar-spectra-analysis) | M.S | Python · NumPy · Matplotlib |
 

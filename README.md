@@ -64,8 +64,22 @@ Full write-ups with demo clips → **[astrodil-git.github.io](https://astrodil-g
 
 ---
 
+### Writing
+
+- [viaNexus Adds EIU: Country Risk and Macro Forecasts on One Key](https://vianexus.com/eiu-country-risk-macro-forecasts/) · Sep 2026
+- [How viaNexus Removes the Market Data Integration Tax](https://vianexus.com/market-data-integration-tax/) · Sep 2026
+- [Fifteen Minutes to a Live Market Dashboard](https://vianexus.com/fifteen-minutes-to-a-live-market-dashboard/) · Aug 2026
+- [MCP Gave Agents the Door. It Didn't Give Them a Key.](https://vianexus.com/vianexus-mcp-permissioning-financial-data/) · May 2026
+- [Financial Data: A New Stack Is Emerging](https://vianexus.com/financial-data-a-new-stack-is-emerging/) · Mar 2026
+- [Building an Earnings Season Navigator](https://vianexus.com/building-an-earnings-season-navigator-a-vianexus-guide/) · Feb 2026
+- [From Signals to Schedules: Making Earnings Dates Predictable](https://vianexus.com/from-signals-to-schedules-making-earnings-dates-predictable/) · Jan 2026
+
+[All posts →](https://vianexus.com/author/dilpreet/)
+
+---
+
 ### Elsewhere
 
-Writing about market data and AI tooling · always happy to talk data, AI, or how strange the universe is.
+Always happy to talk data, AI, or how strange the universe is.
 
 <sub>📫 <a href="mailto:dilpreetk22@gmail.com">dilpreetk22@gmail.com</a></sub>

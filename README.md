@@ -52,7 +52,7 @@ Each links straight to the write-up and demo clip.
 | [**RSI-14 Momentum Screener**](https://astrodil-git.github.io/#rsi-14-momentum-screener) | Added a computed RSI-14 field to the company stats pipeline and shipped the screener… | Python · SingleStore · JavaScript |
 | [**Claude Skills for Market Data**](https://astrodil-git.github.io/#claude-skills-for-market-data) | Seven open-source Claude skills that turn the viaNexus API into things people actually… | Markdown · Python · Claude Skills |
 | [**Cursor Plugin**](https://astrodil-git.github.io/#cursor-plugin) | Packaged the MCP server as a Cursor plugin so developers can query market data without… | TypeScript · MCP |
-| [**Data Platform Deploys**](https://astrodil-git.github.io/#data-platform-deploys) | The deploy path for the data platform: Cloud Build triggers, containerized Airflow DAG… | GCP · Cloud Build · Kubernetes |
+| [**Deploy & Observability**](https://astrodil-git.github.io/#deploy-observability) | How the data platform ships and how it reports on itself | GCP · Cloud Build · Kubernetes |
 | [**Market News Bot**](https://astrodil-git.github.io/#market-news-bot) | An hourly bot that reads the newswire, decides what's actually breaking, and posts a… | Python · X API · LLMs |
 | [**Scoped Access Tickets**](https://astrodil-git.github.io/#scoped-access-tickets) | A short-lived ticket system for dataset access | Node.js · GCP · Redis |
 | [**CityFalcon News Pipeline**](https://astrodil-git.github.io/#cityfalcon-news-pipeline) | Built the ingestion for a news provider from scratch, then split it into three clean… | Python · Airflow · SingleStore |

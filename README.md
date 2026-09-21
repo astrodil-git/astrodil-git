@@ -55,8 +55,6 @@ Each links straight to the write-up and demo clip.
 | [**MT Newswires Feed**](https://astrodil-git.github.io/#mt-newswires-feed) | Global newswire ingestion over FTP | Python · Airflow · FTP |
 | [**Exchange Symbology**](https://astrodil-git.github.io/#exchange-symbology) | The symbology layer that maps newswire tickers to the right market | Python · SingleStore · ISO 10383 |
 | [**Transcripts & Events Pipeline**](https://astrodil-git.github.io/#transcripts-events-pipeline) | Earnings call transcripts and corporate events, ingested from Aiera on a schedule | Python · Airflow · REST |
-| [**MCP Monitoring & Alerting**](https://astrodil-git.github.io/#mcp-monitoring-alerting) | Synthetic monitoring for the MCP stack | Python · GCP Monitoring · Terraform |
-| [**MCP Error Semantics**](https://astrodil-git.github.io/#mcp-error-semantics) | The error layer that makes the connector honest with an AI assistant | Python · MCP · OAuth |
 | [**AI Crawler & SEO Work**](https://astrodil-git.github.io/#ai-crawler-seo-work) | Made the marketing site legible to machines as well as people: an llms.txt route, a… | Ghost · Handlebars · Search Console |
 | [**Stellar Spectra Analysis**](https://astrodil-git.github.io/#stellar-spectra-analysis) | M.S | Python · NumPy · Matplotlib |
 

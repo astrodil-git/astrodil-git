@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://astrodil-git.github.io"><img src="https://img.shields.io/badge/portfolio-astrodil--git.github.io-7fd1ff?style=flat-square&labelColor=0f1116"></a>
-  <a href="https://www.linkedin.com/in/dilpreet-kaur"><img src="https://img.shields.io/badge/linkedin-dilpreet--kaur-7fd1ff?style=flat-square&labelColor=0f1116"></a>
+  <a href="https://www.linkedin.com/in/hey-dilpreet-kaur"><img src="https://img.shields.io/badge/linkedin-hey--dilpreet--kaur-7fd1ff?style=flat-square&labelColor=0f1116"></a>
   <a href="https://orcid.org/0009-0005-8998-5049"><img src="https://img.shields.io/badge/orcid-0009--0005--8998--5049-7fd1ff?style=flat-square&labelColor=0f1116"></a>
 </p>
 
